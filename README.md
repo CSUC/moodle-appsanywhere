@@ -1,4 +1,4 @@
-AppsAnywhere for Moodle (http://moodle.org/)
+**AppsAnywhere for Moodle** (http://moodle.org/)
 
 The Consorci de Serveis Universitaris de Catalunya (CSUC) has integrated AppsAnywhere S2Hub (http://www.software2.com/appsanywhere) using the Moodle plugin mod_appsanywhere. Differents Applications are now available to students from Moodle subjects with easy management.
 
