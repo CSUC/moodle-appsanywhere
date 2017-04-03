@@ -1,0 +1,34 @@
+<?php
+// This file is part of AppsAnywhere plugin.
+//
+// You should have received a copy of the GNU General Public License
+// along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+/**
+ *
+ *
+ * @package    mod_appsanywhere
+ * @copyright  2017 Consorci de Serveis Universitaris de Catalunya CSUC
+ * @author     Miguel Angel Flores (miguel [dot] angel [dot] flores [at] csuc [dot] cat)
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+
+defined('MOODLE_INTERNAL') || die;
+
+if ($ADMIN->fulltree) {
+
+    global $SITE;
+
+    $settings->add(new admin_setting_configtext ('appsanywhere/serverurl',
+        get_string('url', 'appsanywhere'),
+        get_string('configurl', 'appsanywhere'), 'http://www.software2.com'));
+
+    $param = new stdClass();
+    $param->csuclogo = $CFG->wwwroot.'/mod/appsanywhere/pix/csuc.png';
+    $param->csucurl = 'http://csuc.cat';
+    $param->s2url = 'http://www.software2.com';
+
+    $settings->add(new admin_setting_heading('appsanywhere/intro', '',
+                    get_string('abouts2hub', 'appsanywhere', $param)));
+}
+
