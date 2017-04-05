@@ -10,6 +10,8 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 
 ![Alt text](images/plugin_1.png) 
 
+<img src="images/plugin_2.png" width="100">
+
 
 Created by:
 
