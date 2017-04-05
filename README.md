@@ -6,6 +6,10 @@ This program is free software; you can redistribute it and/or modify it under th
 
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details: http://www.gnu.org/copyleft/gpl.html
 
+**Screenshots**
+
+![](./images/plugin_1.png =100x20) 
+
 Created by:
 
 Miguel Ángel Flores - (miguel.angel.flores@csuc.cat)
