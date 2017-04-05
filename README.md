@@ -8,7 +8,7 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 
 **Screenshots**
 
-![](./images/plugin_1.png =100x20) 
+![Alt text](images/plugin_1.png =100x20) 
 
 Created by:
 
