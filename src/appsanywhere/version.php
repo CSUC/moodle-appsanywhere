@@ -16,7 +16,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'mod_appsanywhere';
-$plugin->version = 2017031502;
+$plugin->version = 2017050201;
 $plugin->release = 'v1.1';
 $plugin->requires = 2014051200;
 $plugin->maturity = MATURITY_STABLE;

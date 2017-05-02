@@ -51,14 +51,14 @@ class mod_appsanywhere_renderer extends plugin_renderer_base {
 
         $html .= html_writer::empty_tag ( 'img', $param );
 
-        $html .= html_writer::tag('br');
+        $html .= html_writer::tag('br', '');
        
         $html .= html_writer::tag('button', get_string('appsanywherebutton', 'appsanywhere'), array('type' => 'button' , 'class' => 'btn btn-primary', 'onclick' => $url ));     
         //$html .= html_writer::end_tag('form');        
        
         $html .=  html_writer::end_div();
 
-        $html .= html_writer::tag('br');
+        $html .= html_writer::tag('br', '');
        
         $a = "<a href=". get_config('appsanywhere', 'serverurl'). " target=\"_blank\">AppsAnywhere Client download page</a>";
 
