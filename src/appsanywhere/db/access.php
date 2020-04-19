@@ -1,8 +1,9 @@
 <?php
-// This file is part of AppsAnywhere plugin.
-//
-// You should have received a copy of the GNU General Public License
-// along with this program.  If not, see <http://www.gnu.org/licenses/>.
+/** This file is part of AppsAnywhere plugin.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
 
 /**
  *
@@ -14,7 +15,7 @@
  */
 defined('MOODLE_INTERNAL') || die();
 
-// Modify capabilities as needed and remove this comment.
+/** Modify capabilities as needed and remove this comment. */
 $capabilities = array(
     'mod/appsanywhere:addinstance' => array(
         'riskbitmask' => RISK_XSS,

@@ -1,8 +1,9 @@
 <?php
-// This file is part of AppsAnywhere plugin.
-//
-// You should have received a copy of the GNU General Public License
-// along with this program.  If not, see <http://www.gnu.org/licenses/>.
+/** This file is part of AppsAnywhere plugin.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
 
 /**
  *
@@ -14,11 +15,6 @@
  */
 
 defined('MOODLE_INTERNAL') || die();
-
-/**
- * Example constant, you probably want to remove this :-)
- */
-define('appsanywhere_ULTIMATE_ANSWER', 42);
 
 /* Moodle core API */
 

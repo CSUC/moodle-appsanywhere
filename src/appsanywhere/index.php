@@ -1,8 +1,9 @@
 <?php
-// This file is part of AppsAnywhere plugin.
-//
-// You should have received a copy of the GNU General Public License
-// along with this program.  If not, see <http://www.gnu.org/licenses/>.
+/** This file is part of AppsAnywhere plugin.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
 
 /**
  *
@@ -12,8 +13,7 @@
  * @author     Miguel Angel Flores (miguel [dot] angel [dot] flores [at] csuc [dot] cat)
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-// Replace appsanywhere with the name of your module and remove this line.
-
+ 
 require_once(dirname(dirname(dirname(__FILE__))).'/config.php');
 require_once(dirname(__FILE__).'/lib.php');
 
