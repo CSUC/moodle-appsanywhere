@@ -50,13 +50,6 @@ $PAGE->set_url('/mod/appsanywhere/view.php', array('id' => $cm->id));
 $PAGE->set_title(format_string($appsanywhere->name));
 $PAGE->set_heading(format_string($course->fullname));
 
-/*
- * Other things you may want to set - remove if not needed.
- * $PAGE->set_cacheable(false);
- * $PAGE->set_focuscontrol('some-html-id');
- * $PAGE->add_body_class('appsanywhere-'.$somevar);
- */
-
 /** Output starts here. */
 echo $OUTPUT->header();
 
