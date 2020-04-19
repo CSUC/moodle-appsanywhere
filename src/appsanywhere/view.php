@@ -1,8 +1,9 @@
 <?php
-// This file is part of AppsAnywhere plugin.
-//
-// You should have received a copy of the GNU General Public License
-// along with this program.  If not, see <http://www.gnu.org/licenses/>.
+/** This file is part of AppsAnywhere plugin.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
 
 /**
  *
@@ -13,13 +14,13 @@
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-// Replace appsanywhere with the name of your module and remove this line.
+/** Replace appsanywhere with the name of your module and remove this line. */
 
 require_once(dirname(dirname(dirname(__FILE__))).'/config.php');
 require_once(dirname(__FILE__).'/lib.php');
 
-$id = optional_param('id', 0, PARAM_INT); // Course_module ID, or
-$n  = optional_param('n', 0, PARAM_INT);  // ... appsanywhere instance ID - it should be named as the first character of the module.
+$id = optional_param('id', 0, PARAM_INT); /** Course_module ID, or */
+$n  = optional_param('n', 0, PARAM_INT);  /** appsanywhere instance ID - it should be named as the first character of the module. */
 
 if ($id) {
     $cm         = get_coursemodule_from_id('appsanywhere', $id, 0, false, MUST_EXIST);
@@ -43,23 +44,16 @@ $event->add_record_snapshot('course', $PAGE->course);
 $event->add_record_snapshot($PAGE->cm->modname, $appsanywhere);
 $event->trigger();
 
-// Print the page header.
+/** Print the page header. */
 
 $PAGE->set_url('/mod/appsanywhere/view.php', array('id' => $cm->id));
 $PAGE->set_title(format_string($appsanywhere->name));
 $PAGE->set_heading(format_string($course->fullname));
 
-/*
- * Other things you may want to set - remove if not needed.
- * $PAGE->set_cacheable(false);
- * $PAGE->set_focuscontrol('some-html-id');
- * $PAGE->add_body_class('appsanywhere-'.$somevar);
- */
-
-// Output starts here.
+/** Output starts here. */
 echo $OUTPUT->header();
 
-// Conditions to show the intro can change to look for own settings or whatever.
+/** Conditions to show the intro can change to look for own settings or whatever. */
 if ($appsanywhere->intro) {
     echo $OUTPUT->box(format_module_intro('appsanywhere', $appsanywhere, $cm->id), 'generalbox mod_introbox', 'appsanywhereintro');
 }
@@ -73,5 +67,5 @@ $bc->title = get_string('appsanywherelaunch', 'appsanywhere');
 
 echo $OUTPUT->block($bc, BLOCK_POS_LEFT);
 
-// Finish the page.
+/** Finish the page. */
 echo $OUTPUT->footer();

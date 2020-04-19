@@ -1,24 +1,20 @@
 <?php
-// This file is part of AppsAnywhere plugin.
-//
-// You should have received a copy of the GNU General Public License
-// along with this program.  If not, see <http://www.gnu.org/licenses/>.
+/** This file is part of AppsAnywhere plugin.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
 
 /**
  *
  *
  * @package    mod_appsanywhere
- * @copyright  2017 Consorci de Serveis Universitaris de Catalunya CSUC
+ * @copyright  2020 Consorci de Serveis Universitaris de Catalunya CSUC
  * @author     Miguel Angel Flores (miguel [dot] angel [dot] flores [at] csuc [dot] cat)
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
-
-/**
- * Example constant, you probably want to remove this :-)
- */
-define('appsanywhere_ULTIMATE_ANSWER', 42);
 
 /* Moodle core API */
 

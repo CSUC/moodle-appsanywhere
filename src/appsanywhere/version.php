@@ -1,8 +1,9 @@
 <?php
-// This file is part of AppsAnywhere plugin.
-//
-// You should have received a copy of the GNU General Public License
-// along with this program.  If not, see <http://www.gnu.org/licenses/>.
+/** This file is part of AppsAnywhere plugin.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
 
 /**
  *
@@ -16,8 +17,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'mod_appsanywhere';
-$plugin->version = 2017050201;
-$plugin->release = 'v1.1';
+$plugin->version = 2020041901;
+$plugin->release = 'v1.2';
 $plugin->requires = 2014051200;
 $plugin->maturity = MATURITY_STABLE;
 $plugin->cron = 0;

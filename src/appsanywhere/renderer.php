@@ -1,8 +1,9 @@
 <?php
-// This file is part of AppsAnywhere plugin.
-//
-// You should have received a copy of the GNU General Public License
-// along with this program.  If not, see <http://www.gnu.org/licenses/>.
+/** This file is part of AppsAnywhere plugin.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
 
 /**
  *
@@ -36,16 +37,15 @@ class mod_appsanywhere_renderer extends plugin_renderer_base {
 
         global $CFG, $OUTPUT, $COURSE;
 
-        //$html = html_writer::start_tag('form', array('action' => $appsanywhere->shorcut, 'method' => 'get');
         $url = 'location.href=\''. $appsanywhere->shortcut .'\'';
        
-	if (empty($appsanywhere->icon)) {
-		$param = array( 'src' => $CFG->wwwroot.'/mod/appsanywhere/pix/package.png', 'alt' => 'AppsAnywhere',
+	    if (empty($appsanywhere->icon)) {
+		    $param = array( 'src' => $CFG->wwwroot.'/mod/appsanywhere/pix/package.png', 'alt' => 'AppsAnywhere',
                              'width' => '300' );
-	} else {
+	    } else {
 		 $param = array( 'src' => $appsanywhere->icon, 'alt' => 'AppsAnywhere',
                              'height' => '100' );
-	}	 
+	    }	 
         
         $html = html_writer::start_tag('div', array('align' => 'center'));
 
@@ -53,8 +53,7 @@ class mod_appsanywhere_renderer extends plugin_renderer_base {
 
         $html .= html_writer::tag('br', '');
        
-        $html .= html_writer::tag('button', get_string('appsanywherebutton', 'appsanywhere'), array('type' => 'button' , 'class' => 'btn btn-primary', 'onclick' => $url ));     
-        //$html .= html_writer::end_tag('form');        
+        $html .= html_writer::tag('button', get_string('appsanywherebutton', 'appsanywhere'), array('type' => 'button' , 'class' => 'btn btn-primary', 'onclick' => $url ));         
        
         $html .=  html_writer::end_div();
 
@@ -63,7 +62,6 @@ class mod_appsanywhere_renderer extends plugin_renderer_base {
         $a = "<a href=". get_config('appsanywhere', 'serverurl'). " target=\"_blank\">AppsAnywhere Client download page</a>";
 
         $html .= get_string('appsanywherename_help', 'appsanywhere', $a);
-
 
         return $html;
     }
@@ -82,6 +80,5 @@ class mod_appsanywhere_renderer extends plugin_renderer_base {
         $html = get_string('appsanywherehelp', 'appsanywhere', $a);
 
         return $html;
-
     }
 }
