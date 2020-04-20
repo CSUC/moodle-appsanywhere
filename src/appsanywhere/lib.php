@@ -17,6 +17,7 @@
 
 /**
  *
+ * All the core Moodle functions neeeded to allow the module to work
  *
  * @package    mod_appsanywhere
  * @copyright  2020 Consorci de Serveis Universitaris de Catalunya CSUC

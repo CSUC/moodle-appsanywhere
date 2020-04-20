@@ -17,9 +17,10 @@
 
 /**
  *
+ * Settings for AppsAnywhere
  *
  * @package    mod_appsanywhere
- * @copyright  2017 Consorci de Serveis Universitaris de Catalunya CSUC
+ * @copyright  2020 Consorci de Serveis Universitaris de Catalunya CSUC
  * @author     Miguel Angel Flores (miguel [dot] angel [dot] flores [at] csuc [dot] cat)
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
@@ -32,12 +33,12 @@ if ($ADMIN->fulltree) {
 
     $settings->add(new admin_setting_configtext ('appsanywhere/serverurl',
         get_string('url', 'appsanywhere'),
-        get_string('configurl', 'appsanywhere'), 'http://www.software2.com'));
+        get_string('configurl', 'appsanywhere'), 'https://www.software2.com'));
 
     $param = new stdClass();
     $param->csuclogo = $CFG->wwwroot.'/mod/appsanywhere/pix/csuc.png';
     $param->csucurl = 'http://csuc.cat';
-    $param->s2url = 'http://www.software2.com';
+    $param->s2url = 'https://www.software2.com/appsanywhere';
 
     $settings->add(new admin_setting_heading('appsanywhere/intro', '',
                     get_string('abouts2hub', 'appsanywhere', $param)));
