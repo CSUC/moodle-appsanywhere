@@ -17,9 +17,10 @@
 
 /**
  *
+ * This code fragment is called by moodle_needs_upgrading() and /admin/index.php
  *
  * @package    mod_appsanywhere
- * @copyright  2017 Consorci de Serveis Universitaris de Catalunya CSUC
+ * @copyright  2020 Consorci de Serveis Universitaris de Catalunya CSUC
  * @author     Miguel Angel Flores (miguel [dot] angel [dot] flores [at] csuc [dot] cat)
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
@@ -27,8 +28,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'mod_appsanywhere';
-$plugin->version = 2020042008;
-$plugin->release = 'v1.2';
+$plugin->version = 2020042014;
+$plugin->release = 'v1.2.14';
 $plugin->requires = 2014051200;
 $plugin->maturity = MATURITY_STABLE;
 $plugin->cron = 0;

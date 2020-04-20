@@ -17,9 +17,10 @@
 
 /**
  *
+ * For custom uninstallation
  *
  * @package    mod_appsanywhere
- * @copyright  2017 Consorci de Serveis Universitaris de Catalunya CSUC
+ * @copyright  2020 Consorci de Serveis Universitaris de Catalunya CSUC
  * @author     Miguel Angel Flores (miguel [dot] angel [dot] flores [at] csuc [dot] cat)
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */

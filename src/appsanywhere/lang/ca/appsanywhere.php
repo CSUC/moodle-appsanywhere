@@ -17,9 +17,10 @@
 
 /**
  *
+ * Catalan translation of AppsAnywhere module
  *
  * @package    mod_appsanywhere
- * @copyright  2017 Consorci de Serveis Universitaris de Catalunya CSUC
+ * @copyright  2020 Consorci de Serveis Universitaris de Catalunya CSUC
  * @author     Miguel Angel Flores (miguel [dot] angel [dot] flores [at] csuc [dot] cat)
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
@@ -28,20 +29,20 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['modulename'] = 'AppsAnywhere';
 $string['modulenameplural'] = 'AppsAnywhere';
-$string['modulename_help'] = 'Utilitza el modul de AppsAnywhere module for generated shortcut';
+$string['modulename_help'] = 'Utilitza el mòdul AppsAnywhere per a generar un accés directe.';
 $string['appsanywhere:addinstance'] = 'Afegir nova aplicació AppsAnywhere';
-$string['appsanywhere:submit'] = 'Submit AppsAnywhere';
-$string['appsanywhere:view'] = 'View AppsAnywhere';
+$string['appsanywhere:submit'] = 'Enviar AppsAnywhere';
+$string['appsanywhere:view'] = 'Vista AppsAnywhere';
 $string['appsanywherefieldset'] = 'Gestió dels paràmetres AppsAnywhere';
 $string['introtext'] = 'Enganxa aquí el shortcut generat al portal AppsAnywhere';
-$string['appsanywherename'] = 'AppsAnywhere Application';
+$string['appsanywherename'] = 'Aplicació AppsAnywhere';
 $string['appsanywherelaunch'] = 'Executar Aplicació AppsAnywhere';
-$string['appsanywherename_help'] = '<p class="alert alert-warning">After pressing the "Launch" button for the first time, the browser may show a new window to download a software needed to access the AppsAnywhere. The download URL of the software is: {$a}</p>';
+$string['appsanywherename_help'] = '<p class="alert alert-warning">Abans de prémer el botó "Iniciar" per primera vegada, recordeu descarregar i instal·lar el programari necessari per accedir a AppsAnywhere. La URL per descarregar el programari és: {$a}</p>';
 $string['appsanywhere'] = 'appsanywhere';
 $string['pluginadministration'] = 'appsanywhere administration';
-$string['pluginname'] = 'appsanywhere';
+$string['pluginname'] = 'Appsanywhere';
 $string['url'] = 'Software2 server URL';
 $string['configurl'] = 'URL on descarregar el client AppsAnywhere (http[s]://hostname)';
-$string['appsanywherebutton'] = 'Launch';
+$string['appsanywherebutton'] = 'Iniciar';
 $string['appsanywhereicon'] = 'URL de la icona';
 

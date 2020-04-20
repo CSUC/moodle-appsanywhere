@@ -16,6 +16,7 @@
 
 /**
  *
+ * The mod_appsanywhere instance list viewed event.
  *
  * @package    mod_appsanywhere
  * @copyright  2017 Consorci de Serveis Universitaris de Catalunya CSUC
