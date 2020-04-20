@@ -1,9 +1,19 @@
 <?php
-/** This file is part of AppsAnywhere plugin.
- *
- * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
- */
+// This file is part of Moodle - http://moodle.org/
+//
+// Moodle is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// Moodle is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+
 
 /**
  *
@@ -58,12 +68,9 @@ class mod_appsanywhere_mod_form extends moodleform_mod {
 
         // Adding the rest of appsanywhere settings, spreading all them into this fieldset
         // ... or adding more fieldsets ('header' elements) if needed for better logic.
-        //$mform->addElement('static', 'label1', 'appsanywheresetting1', 'Your appsanywhere fields go here. Replace me!');
-
         $mform->addElement('header', 'appsanywherefieldset', get_string('appsanywherefieldset', 'appsanywhere'));
         $mform->addElement('textarea', 'shortcut', get_string("introtext", "appsanywhere"), 'wrap="virtual" rows="10" cols="90"');
         $mform->addElement('text', 'icon', get_string('appsanywhereicon', 'appsanywhere'), array('size' => '90'));
-        // $mform->addElement('static', 'label2', 'appsanywheresetting2', 'Your appsanywhere fields go here. Replace me!');
 
         // Add standard grading elements.
         $this->standard_grading_coursemodule_elements();
